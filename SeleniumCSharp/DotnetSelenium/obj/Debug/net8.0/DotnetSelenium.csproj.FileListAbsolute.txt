@@ -204,3 +204,4 @@ C:\Repos\SeleniumCSharp\DotnetSelenium\obj\Debug\net8.0\refint\DotnetSelenium.dl
 C:\Repos\SeleniumCSharp\DotnetSelenium\obj\Debug\net8.0\DotnetSelenium.pdb
 C:\Repos\SeleniumCSharp\DotnetSelenium\obj\Debug\net8.0\DotnetSelenium.genruntimeconfig.cache
 C:\Repos\SeleniumCSharp\DotnetSelenium\obj\Debug\net8.0\ref\DotnetSelenium.dll
+C:\Repos\SeleniumCSharp\DotnetSelenium\obj\Debug\net8.0\DotnetSelenium.sourcelink.json
