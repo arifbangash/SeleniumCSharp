@@ -1,4 +1,5 @@
-﻿namespace DotnetSelenium.PageObjects.PageClasses.Login
+﻿
+namespace DotnetSelenium.PageObjects.PageClasses.Login
 {
     public class LoginPage
     {
