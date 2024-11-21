@@ -1,3 +1,4 @@
+using DotnetSelenium.Utilities;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -41,14 +42,20 @@ namespace DotnetSelenium
             options.AddExcludedArgument("enable-automation");
             options.AddAdditionalOption("useAutomationExtension", false);
 
+            SharedUtilities _sharedUtils = new SharedUtilities();
+
             IWebDriver _driver = new ChromeDriver(options);
             _driver.Manage().Window.Maximize();
 
-            _driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+            _driver.Navigate().GoToUrl("https://rahulshettyacademy.com/AutomationPractice/");
 
-            var loginLink = _driver.FindElement(By.LinkText("Login"));
+            _sharedUtils.ClickOnElement(_driver.FindElement(By.Id("Login1")));
 
-            loginLink.Click();
+
+            _sharedUtils.EnterTextInTextBox(_driver.FindElement(By.Name("UserName")), "admin");
+            _sharedUtils.EnterTextInTextBox(_driver.FindElement(By.Name("Password")), "Password");
+            _sharedUtils.ClickOnElement(_driver.FindElement(By.Id("loginIn")));
+
         }
     }
 }
