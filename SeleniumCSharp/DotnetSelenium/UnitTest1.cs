@@ -28,7 +28,7 @@ namespace DotnetSelenium
             IWebElement _element = _driver.FindElement(By.Name("q"));
             _element.SendKeys("Selenium");
             _element.SendKeys(Keys.Enter);
-            //_driver.Close();
+            _driver.Close();
         }
     }
 }
