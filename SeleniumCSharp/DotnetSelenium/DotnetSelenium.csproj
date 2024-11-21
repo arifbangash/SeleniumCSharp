@@ -23,4 +23,9 @@
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="PageObjects\Locators\" />
+    <Folder Include="PageObjects\PageClasses\" />
+  </ItemGroup>
+
 </Project>
